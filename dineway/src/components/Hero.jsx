@@ -43,7 +43,7 @@ const styles = {
   overlay: {
     position: "absolute",
     inset: 0,
-    background: "rgba(0,0,0,0.52)",
+    background: "rgba(0,0,0,0.35)",
   },
   content: {
     position: "relative",
