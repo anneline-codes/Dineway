@@ -1,0 +1,10 @@
+:root {
+  --gold: #c9a84c;
+  --gold-light: #e2c97e;
+  --dark: #0d0d0d;
+  --dark-overlay: rgba(0, 0, 0, 0.55);
+  --white: #ffffff;
+  --gray: #aaaaaa;
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Lato', sans-serif;
+}
