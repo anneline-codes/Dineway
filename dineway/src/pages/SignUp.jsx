@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import foodBg from '../assets/Screenshot 2026-05-03 113228.png'
+import foodBg from '../assets/formspic.png'
 import logo from '../assets/logo.png'
 
 export default function SignUp() {
