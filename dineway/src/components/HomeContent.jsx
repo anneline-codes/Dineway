@@ -33,7 +33,7 @@ export default function HomeContent() {
             <button style={styles.btnPrimary} onClick={() => navigate("/dashboard")}>
               Reserve Your Table &nbsp;→
             </button>
-            <button style={styles.btnOutline}>
+            <button style={styles.btnOutline} onClick={() => navigate("/explore")}>
               <span style={styles.btnOutlineIcon}>→</span> Explore More
             </button>
           </div>
@@ -89,7 +89,6 @@ const styles = {
   },
   tornImg: {
     width: "100%",
-    height: "320px",
     display: "block",
     objectFit: "contain",
     objectPosition: "center",
