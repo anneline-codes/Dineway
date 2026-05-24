@@ -1,0 +1,183 @@
+.page {
+  background: #0d0d0d;
+  min-height: 100vh;
+}
+
+.heroBar {
+  position: relative;
+  height: 160px;
+  background: #0d0d0d;
+}
+
+.overview {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.overviewHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.overviewTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  color: #c9a84c;
+  margin: 0 0 6px;
+}
+
+.overviewSub {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  color: #888;
+  margin: 0;
+}
+
+.dropdown {
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 4px;
+  color: #ccc;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  padding: 8px 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.card {
+  background: #161616;
+  border: 1px solid #2a2a2a;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.cardImg {
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+}
+
+.cardImgEl {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardImgEmpty {
+  width: 100%;
+  height: 100%;
+  background: #2a2a2a;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 14px;
+}
+
+.cardName {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  color: #ddd;
+}
+
+.registerBtn {
+  background: none;
+  border: none;
+  color: #c9a84c;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.tornWrapper {
+  position: relative;
+  width: 100%;
+  line-height: 0;
+}
+
+.tornImg {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+.reviewsInner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 860px;
+  z-index: 2;
+  text-align: center;
+}
+
+.reviewsTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: #c9a84c;
+  margin-bottom: 24px;
+}
+
+.reviewsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.reviewCard {
+  background: rgba(20, 20, 20, 0.85);
+  border: 1px solid #2a2a2a;
+  border-radius: 6px;
+  padding: 18px;
+  text-align: left;
+}
+
+.reviewText {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.reviewAuthor {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  color: #c9a84c;
+}
+
+.menuSection {
+  display: flex;
+  justify-content: center;
+  padding: 60px 24px;
+  background: #0d0d0d;
+}
+
+.menuBtn {
+  background: transparent;
+  border: 1px solid #555;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 14px 60px;
+  border-radius: 4px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
