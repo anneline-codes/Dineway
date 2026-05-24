@@ -1,0 +1,23 @@
+.page {
+  min-height: 100vh;
+  background: #0d0d0d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: #c9a84c;
+  margin: 0;
+}
+
+.sub {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
