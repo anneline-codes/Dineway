@@ -1,0 +1,17 @@
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  padding: 40px 40px 0;
+  z-index: 10;
+}
+
+.logo {
+  height: 140px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
+  margin-top: 20px;
+}
