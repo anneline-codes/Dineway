@@ -1,0 +1,139 @@
+.tornWrapper {
+  position: relative;
+  width: 100%;
+  line-height: 0;
+}
+
+.tornImg {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+  object-position: center;
+}
+
+.ctaInner {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+  max-width: 600px;
+  z-index: 2;
+}
+
+.ctaText {
+  font-family: 'Lato', sans-serif;
+  font-size: clamp(14px, 1.6vw, 18px);
+  color: #ccc;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.btnPrimary {
+  background: #c9a84c;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 13px 28px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin-right: 40px;
+}
+
+.btnOutline {
+  background: transparent;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 13px 28px;
+  border-radius: 4px;
+  border: 1px solid #555;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btnOutlineIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1px solid #888;
+  font-size: 12px;
+}
+
+.aboutSection {
+  background: #0d0d0d;
+  padding: 80px 60px;
+}
+
+.aboutInner {
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.aboutText {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(18px, 2.2vw, 28px);
+  color: #fff;
+  line-height: 1.6;
+  flex: 1;
+  min-width: 260px;
+  margin: 0;
+}
+
+.aboutImgWrap {
+  width: 260px;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slideImg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 1s ease-in-out;
+}
+
+.slideDots {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+  z-index: 2;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.3s, transform 0.3s;
+}
