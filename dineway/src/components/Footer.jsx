@@ -1,6 +1,6 @@
-import { useState } from 'react'
-import logo from '../assets/logo.png'
-import styles from './Footer.module.css'
+import { useState } from 'react';
+import logo from '../assets/logo.png';
+import styles from './Footer.module.css';
 
 export default function Footer() {
   const [email, setEmail] = useState('')
