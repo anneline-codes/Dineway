@@ -1,5 +1,5 @@
-import logo from '../assets/logo.png'
-import styles from './Navbar.module.css'
+import logo from '../assets/logo.png';
+import styles from './Navbar.module.css';
 
 export default function Navbar({ logoClass = '' }) {
   return (
