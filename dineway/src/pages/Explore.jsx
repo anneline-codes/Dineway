@@ -31,6 +31,7 @@ export default function Explore() {
       <div className={styles.heroBar}>
         <Navbar />
       </div>
+      
 
       <section className={styles.overview}>
         <div className={styles.overviewHeader}>
