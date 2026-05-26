@@ -1,8 +1,8 @@
-import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
-import foodBg from '../assets/formspic.png'
-import logo from '../assets/logo.png'
-import styles from '../styles/auth.module.css'
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import foodBg from '../assets/formspic.png';
+import logo from '../assets/logo.png';
+import styles from '../styles/auth.module.css';
 
 export default function Login() {
   const navigate = useNavigate()
