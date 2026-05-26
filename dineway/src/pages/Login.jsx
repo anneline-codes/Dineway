@@ -19,7 +19,7 @@ export default function Login() {
     <div className={styles.page}>
       <div className={styles.left} style={{ backgroundImage: `url(${foodBg})` }}>
         <div className={styles.logoWrap}>
-          <img src={logo} alt="Dineway logo" className={styles.logo} />
+           <img src={logo} alt="Dineway logo" className={styles.logo} />
         </div>
       </div>
 
